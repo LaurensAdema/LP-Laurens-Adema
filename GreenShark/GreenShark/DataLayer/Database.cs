@@ -13,7 +13,7 @@
 
     public abstract class Database
     {
-        private bool localhost = false;
+        private const bool localhost = false;
 
         protected OracleConnection Con { get; set; }
 
@@ -30,7 +30,7 @@
                 {
                     this.Con.ConnectionString = localhost
                                                     ? "DATA SOURCE=localhost/xe;User Id=Application;Password=Welkom01;"
-                                                    : "DATA SOURCE=SME-IIS/xe;User Id=Application;Password=Welkom01;";
+                                                    : "User Id=dbi324942;Password=FSM6BF1PUf;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=fhictora01.fhict.local)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=fhictora)));";
                     this.Con.Open();
                 }
                 catch (OracleException e)
@@ -56,6 +56,10 @@
                 deleteCommand.ExecuteNonQuery();
             }
             catch (OracleException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (InvalidOperationException e)
             {
                 Console.WriteLine(e.Message);
             }

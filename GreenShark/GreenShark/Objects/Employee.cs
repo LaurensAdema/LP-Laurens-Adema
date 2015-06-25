@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GreenShark
 {
-    public class SIN : Mission
+    public class Employee
     {
         public int ID
         {
@@ -18,7 +18,7 @@ namespace GreenShark
             }
         }
 
-        public List<Incidents> NumberOfCops
+        public string Name
         {
             get
             {
@@ -29,7 +29,7 @@ namespace GreenShark
             }
         }
 
-        public int Incidents
+        public FunctionEmployee Function
         {
             get
             {

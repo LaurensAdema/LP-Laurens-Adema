@@ -595,6 +595,124 @@
         LastKnownName="Oracle"
         LastKnownLocation="Package_1639.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c85a8f88-24b0-4f65-9a91-d9e1c0897c8b"
+        name="Account"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5c3f2716-d249-4596-b78a-bf1022a316e3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FLaurens%2FDocuments%2FGitHub%2FLP-Laurens-Adema%2FGreenShark%2FGreenShark%2Fbin%2FDebug%2FGreenShark.exe Type%3DAccount"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="39fcd6a6-b2d4-48d4-b51a-d4b3235e1a36"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f79e2163-0ac1-4287-8376-284f9a4eecdc">
+                <propertyInstance
+                  Id="f36c97ad-ac46-4bf3-8ee7-5f824ba8fc6e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ccc012b9-9d41-4147-b2dd-bef794bf4167">
+                <propertyInstance
+                  Id="28515aab-ac92-47f0-86e2-d7eb7b283fd0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ba05c2b2-ea3a-4456-b61f-b16595888629">
+                <propertyInstance
+                  Id="a0c46802-0159-4dce-9edd-4698eb531f1c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8510e6c5-609e-4043-985e-4bb1a90dd856">
+                <propertyInstance
+                  Id="6def2d45-bc86-4932-b62c-77df7202de70"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="24d5a2d1-e179-404e-887b-9ab5631a8eb5">
+                <propertyInstance
+                  Id="496954e4-398c-40ee-80ab-bca85ad4e8b3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e06dd4f4-55e4-4870-9abf-c9e3f96c58ce"
+        name="GeoCoordinate"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5a2e3b05-67f6-4f7b-b2e7-d210bb4ab3d5"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FLaurens%2FDocuments%2FGitHub%2FLP-Laurens-Adema%2FGreenShark%2FGreenShark%2Fbin%2FDebug%2FGreenShark.exe Type%3DGeoCoordinate"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6c18b4b8-24e1-42e6-a325-6c6a0da52a46"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9abc2246-e7cc-4018-bc1c-db9040993c6d">
+                <propertyInstance
+                  Id="eae08774-a29b-4fed-8b1f-3555e5d1b58d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4ff0ad3-8b2d-4cb4-a629-bfc24afe43fb">
+                <propertyInstance
+                  Id="331e5c5d-4e38-4938-9ad3-2f9a2a9193ad"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de276cee-9533-48ec-8c22-4ea216e63b63">
+                <propertyInstance
+                  Id="54b621a0-0ae1-42f7-939d-bc9a5888e050"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea89a3b3-b09f-42f1-874b-6ff2d6d3a30d">
+                <propertyInstance
+                  Id="cd4a0d76-f207-4ccf-8f1b-7edd35be3073"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be136a7e-5e9f-41a3-a8d9-9706951fb2f2">
+                <propertyInstance
+                  Id="3059eed6-5c6a-458f-858c-0df8bc8b1867"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

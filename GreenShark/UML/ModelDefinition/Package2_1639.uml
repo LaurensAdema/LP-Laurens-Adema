@@ -21,7 +21,7 @@
         <referencesInternal>
           <reference
             Id="e278e722-7d08-4d33-93c8-6ba7c029ab2b"
-            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLaurens%2FDropbox%2FFontys HBO ICT%2FS2%2FPTS2%2FFase1%2FInstalls%2Fodp.net%2Fmanaged%2Fcommon%2FOracle.ManagedDataAccess.dll&quot; Namespace%3DOracle.ManagedDataAccess.Client Type%3DOracleParameter"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FLaurens%2FDocuments%2FGitHub%2FLP-Laurens-Adema%2FOracle.ManagedDataAccess.dll Namespace%3DOracle.ManagedDataAccess.Client Type%3DOracleParameter"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -79,7 +79,7 @@
         <referencesInternal>
           <reference
             Id="5c1916ff-6fc0-4793-b120-75c15c6ee087"
-            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLaurens%2FDropbox%2FFontys HBO ICT%2FS2%2FPTS2%2FFase1%2FInstalls%2Fodp.net%2Fmanaged%2Fcommon%2FOracle.ManagedDataAccess.dll&quot; Namespace%3DOracle.ManagedDataAccess.Client Type%3DOracleDataReader"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FLaurens%2FDocuments%2FGitHub%2FLP-Laurens-Adema%2FOracle.ManagedDataAccess.dll Namespace%3DOracle.ManagedDataAccess.Client Type%3DOracleDataReader"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -137,7 +137,7 @@
         <referencesInternal>
           <reference
             Id="46bc5e43-960c-4a6f-9770-ba162808f7b1"
-            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLaurens%2FDropbox%2FFontys HBO ICT%2FS2%2FPTS2%2FFase1%2FInstalls%2Fodp.net%2Fmanaged%2Fcommon%2FOracle.ManagedDataAccess.dll&quot; Namespace%3DOracle.ManagedDataAccess.Client Type%3DOracleConnection"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FLaurens%2FDocuments%2FGitHub%2FLP-Laurens-Adema%2FOracle.ManagedDataAccess.dll Namespace%3DOracle.ManagedDataAccess.Client Type%3DOracleConnection"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>

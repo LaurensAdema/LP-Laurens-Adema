@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Device.Location;
 
 namespace GreenShark
 {
-    public class MissionProfile
+    public class Mission
     {
         public int ID
         {
@@ -18,7 +19,40 @@ namespace GreenShark
             }
         }
 
-        public List<Material> Materials
+        public Boat Boat
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public DateTime LeaveDate
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public string Discription
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public GeoCoordinate Location
         {
             get
             {
@@ -40,7 +74,7 @@ namespace GreenShark
             }
         }
 
-        public int NumberOfCaptains
+        public System.Collections.Generic.List<Material> Materials
         {
             get
             {
@@ -51,18 +85,7 @@ namespace GreenShark
             }
         }
 
-        public int NumberOfBioligists
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public int NumberOfPolice
+        public System.Collections.Generic.List<GreenShark.FunctionEmployee> Employees
         {
             get
             {

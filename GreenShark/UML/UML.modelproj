@@ -28,6 +28,9 @@
     <Content Include="ModelDefinition\Package1_1639.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package1_2347.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package2_1621.uml">
       <SubType>Content</SubType>
     </Content>
@@ -50,6 +53,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1639.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2347.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="UMLClassDiagram.classdiagram">

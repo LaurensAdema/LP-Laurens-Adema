@@ -80,5 +80,11 @@
         </appliedStereotypesInternal>
       </class>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0647f71e-fea6-49a0-b972-a3d16bd07c5d"
+        LastKnownName="Device"
+        LastKnownLocation="Package_2347.uml" />
+    </packageHasNamedElement>
   </packagedElements>
 </package>

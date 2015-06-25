@@ -33,10 +33,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Oracle.ManagedDataAccess">
-      <HintPath>..\..\..\..\..\Dropbox\Fontys HBO ICT\S2\PTS2\Fase1\Installs\odp.net\managed\common\Oracle.ManagedDataAccess.dll</HintPath>
+      <HintPath>..\..\Oracle.ManagedDataAccess.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Device" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,35 +48,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administration.cs" />
-    <Compile Include="AdministrationBoat.cs" />
-    <Compile Include="AdministrationEmployee.cs" />
-    <Compile Include="AdministrationLogin.cs" />
-    <Compile Include="AdministrationMaterial.cs" />
-    <Compile Include="AdministrationMission.cs" />
-    <Compile Include="Boat.cs" />
-    <Compile Include="Database.cs" />
-    <Compile Include="DatabaseBoat.cs" />
-    <Compile Include="DatabaseEmployee.cs" />
-    <Compile Include="DatabaseLogin.cs" />
-    <Compile Include="DatabaseMaterial.cs" />
-    <Compile Include="DatabaseMission.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="BusinessLayer\Administration.cs" />
+    <Compile Include="FunctionEmployee.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="Objects\Boat.cs" />
+    <Compile Include="DataLayer\Database.cs" />
+    <Compile Include="DataLayer\DatabaseBoat.cs" />
+    <Compile Include="DataLayer\DatabaseEmployee.cs" />
+    <Compile Include="DataLayer\DatabaseLogin.cs" />
+    <Compile Include="DataLayer\DatabaseMaterial.cs" />
+    <Compile Include="DataLayer\DatabaseMission.cs" />
+    <Compile Include="Objects\Employee.cs" />
+    <Compile Include="GUI\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="GUI\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="HOPE.cs" />
-    <Compile Include="Incident.cs" />
-    <Compile Include="Material.cs" />
-    <Compile Include="Measurement.cs" />
-    <Compile Include="Mission.cs" />
-    <Compile Include="MissionProfile.cs" />
+    <Compile Include="Objects\HOPE.cs" />
+    <Compile Include="Objects\Incident.cs" />
+    <Compile Include="Objects\Material.cs" />
+    <Compile Include="Objects\Measurement.cs" />
+    <Compile Include="Objects\Mission.cs" />
+    <Compile Include="Objects\MissionProfile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SIN.cs" />
+    <Compile Include="Objects\SIN.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

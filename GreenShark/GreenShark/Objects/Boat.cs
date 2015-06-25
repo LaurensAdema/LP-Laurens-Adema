@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GreenShark
 {
-    public class Mission
+    public class Boat
     {
         public int ID
         {
@@ -18,7 +18,7 @@ namespace GreenShark
             }
         }
 
-        public Boat Boat
+        public string Name
         {
             get
             {
@@ -29,62 +29,7 @@ namespace GreenShark
             }
         }
 
-        public DateTime LeaveDate
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public string Discription
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public int LocationX
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public int LocationY
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public int NumberOfCaptains
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public string BoatType
+        public string Type
         {
             get
             {
@@ -96,6 +41,28 @@ namespace GreenShark
         }
 
         public System.Collections.Generic.List<Material> Materials
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public List<Employee> Crew
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public GeoCoordinate Location
         {
             get
             {

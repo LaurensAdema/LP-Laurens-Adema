@@ -18,17 +18,6 @@ namespace GreenShark
             }
         }
 
-        public int NuberOfBiolgists
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
         public DateTime ReturnDate
         {
             get

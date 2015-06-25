@@ -5,9 +5,20 @@ using System.Text;
 
 namespace GreenShark
 {
-    abstract class Administration
+    public class SIN : Mission
     {
-        private Employee Employee
+        public int ID
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public List<Incident> Incidents
         {
             get
             {
