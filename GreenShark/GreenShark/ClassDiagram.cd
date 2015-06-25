@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GreenShark.HOPE">
+    <Position X="19.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAACAAAAgAAAAAAAAAAAAAAAAAAAAAAQAAAAAAE=</HashCode>
+      <FileName>HOPE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.SIN">
+    <Position X="21.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>SIN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.Mission">
+    <Position X="20.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAgAAAoCIAAAAAAAAAAAAAAIAAAAAEAAA=</HashCode>
+      <FileName>Mission.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.Measurement">
+    <Position X="19.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAABAAAgAAAAAAA=</HashCode>
+      <FileName>Measurement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.Incident">
+    <Position X="21.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Incident.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.MissionProfile">
+    <Position X="17" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAgAAAgAAAAAAAAAAAAAAAAQAAAAAEEAA=</HashCode>
+      <FileName>MissionProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.Employee">
+    <Position X="17" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAYAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.Material">
+    <Position X="17.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Material.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.Boat">
+    <Position X="17" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAgAAAAAIAAAQAAAAQAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Boat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.Database">
+    <Position X="3.75" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAABAgAQEAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.Administration">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Administration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.AdministrationLogin">
+    <Position X="9" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdministrationLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.AdministrationMission">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdministrationMission.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.AdministrationEmployee">
+    <Position X="11.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdministrationEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.AdministrationMaterial">
+    <Position X="9.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdministrationMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.AdministrationBoat">
+    <Position X="12" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdministrationBoat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.DatabaseBoat">
+    <Position X="8" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DatabaseBoat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.DatabaseEmployee">
+    <Position X="10.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DatabaseEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.DatabaseMaterial">
+    <Position X="7.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DatabaseMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.DatabaseMission">
+    <Position X="10.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DatabaseMission.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenShark.DatabaseLogin">
+    <Position X="9.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DatabaseLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

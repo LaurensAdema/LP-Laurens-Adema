@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6a80627b-8ec0-4a7d-8b36-7514a559679c"
+  name="Client"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2c88b35f-f503-4d34-ac53-5d84e7d39661"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DOracle.ManagedDataAccess.Client"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="bb4d8606-a096-4b4c-a4ac-00f56628ea8a"
+        name="OracleParameter"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e278e722-7d08-4d33-93c8-6ba7c029ab2b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLaurens%2FDropbox%2FFontys HBO ICT%2FS2%2FPTS2%2FFase1%2FInstalls%2Fodp.net%2Fmanaged%2Fcommon%2FOracle.ManagedDataAccess.dll&quot; Namespace%3DOracle.ManagedDataAccess.Client Type%3DOracleParameter"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b0610a14-d821-4a8d-bf2c-1702cd2b6963"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7f3c32a-9f56-41dc-a5e6-aeda3f3089a4">
+                <propertyInstance
+                  Id="a43ba090-e663-43f8-ac4c-bef5c3f6bb7d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b5bf1473-3656-4d87-a971-8a1c8838feb0">
+                <propertyInstance
+                  Id="22bbca7e-4df9-4ea2-ba7d-1ceb03ac5b3c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c70f2b5a-f877-4546-ac3c-0895de47fafa">
+                <propertyInstance
+                  Id="769881a4-8329-4c55-80ac-f4d7d8ad1611"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b3f9d7b4-a13e-4b06-9211-3ebdea1410a3">
+                <propertyInstance
+                  Id="fc1c77bf-8954-4a81-86c1-36c4be776b7f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d11270f-4444-40b7-a39b-09b263852f70">
+                <propertyInstance
+                  Id="5c0e668c-971f-412a-a3b7-512768361269"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c8d799ac-7c04-40f4-829e-447466093a56"
+        name="OracleDataReader"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5c1916ff-6fc0-4793-b120-75c15c6ee087"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLaurens%2FDropbox%2FFontys HBO ICT%2FS2%2FPTS2%2FFase1%2FInstalls%2Fodp.net%2Fmanaged%2Fcommon%2FOracle.ManagedDataAccess.dll&quot; Namespace%3DOracle.ManagedDataAccess.Client Type%3DOracleDataReader"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="924cab7f-5529-4beb-b20b-b235b1622da8"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e816d814-8bcf-45ce-b195-50f87eb769a9">
+                <propertyInstance
+                  Id="3fcbd12f-a6fc-4613-81dd-32f442047340"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="510f2984-1ffa-4f55-b1a5-22572e719354">
+                <propertyInstance
+                  Id="50639727-c4cb-482c-a023-d7a09e180b2f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="64f9dab8-0a97-4136-aaf8-10568a48af64">
+                <propertyInstance
+                  Id="0017e6f0-2454-4d9f-9bf7-08aaa1680e40"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a47037ab-9c24-4261-b7cb-2f6980a8af3d">
+                <propertyInstance
+                  Id="b366a40e-134a-4df9-824d-63c79fd3dc0a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="82ab578e-bcff-46f2-a2e9-b654108f5030">
+                <propertyInstance
+                  Id="c1c3d6f2-a220-482c-bc98-cb7e5f6c3a4f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6bf3d751-45a7-40e9-8dfb-55c0ca7ebd49"
+        name="OracleConnection"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="46bc5e43-960c-4a6f-9770-ba162808f7b1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLaurens%2FDropbox%2FFontys HBO ICT%2FS2%2FPTS2%2FFase1%2FInstalls%2Fodp.net%2Fmanaged%2Fcommon%2FOracle.ManagedDataAccess.dll&quot; Namespace%3DOracle.ManagedDataAccess.Client Type%3DOracleConnection"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="27dcfcc3-2825-46a7-89d8-0132598db750"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="68449a21-43a1-4e76-b64d-d665b3b55c92">
+                <propertyInstance
+                  Id="4b57df06-9418-46cf-8051-030e8601d05f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ca91d9b8-0e45-46c5-9777-b3814441cee7">
+                <propertyInstance
+                  Id="fcb87288-a396-4ec3-8423-75d9491728ba"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3188a06d-0f58-4732-84c2-dd2925622c46">
+                <propertyInstance
+                  Id="0f450184-aee1-4136-9213-ab9efedd8dd8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="269e3581-1257-49c8-a785-457948d82708">
+                <propertyInstance
+                  Id="074577eb-a8b3-438f-adf9-c1b9d23c4d57"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4c31f4b6-4b90-4ce6-b8b1-0c8c8ec39d4d">
+                <propertyInstance
+                  Id="c7b98d15-a506-4b1d-81b1-0bc8ff036e80"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

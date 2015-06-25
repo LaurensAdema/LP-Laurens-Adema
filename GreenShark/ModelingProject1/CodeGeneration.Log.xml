@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-06-25T15:57:59" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2015-06-25T15:57:59" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2015-06-25T15:57:59" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-06-25T15:57:59" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProject1Lib\ModelingProject1Lib.csproj" />
+  <Message Timestamp="2015-06-25T15:57:59" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-06-25T15:57:59" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-06-25T15:57:59" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-06-25T15:57:59" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-06-25T15:57:59" Importance="Medium" Text="ModelingProject1's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'ModelingProject1::Boat' -  (Class), 'ModelingProject1::Mission' -  (Class), 'ModelingProject1::HOPE' -  (Class), 'ModelingProject1::SIN' -  (Class), 'ModelingProject1::MissionProfile' -  (Class), 'ModelingProject1::Material' -  (Class), 'ModelingProject1::Employee' -  (Class) " />
+  <Message Timestamp="2015-06-25T15:58:03" Importance="Medium" Text="Project Added: C:\Users\Laurens\Documents\GitHub\LP-Laurens-Adema\GreenShark\ModelingProject1Lib\ModelingProject1Lib.csproj" />
+  <Message Timestamp="2015-06-25T15:58:03" Importance="Medium" Text="'ModelingProject1::Boat' -  (Class) : success (file created) - C:\Users\Laurens\Documents\GitHub\LP-Laurens-Adema\GreenShark\ModelingProject1Lib\GeneratedCode\Boat.cs" />
+  <Message Timestamp="2015-06-25T15:58:04" Importance="Medium" Text="'ModelingProject1::Mission' -  (Class) : success (file created) - C:\Users\Laurens\Documents\GitHub\LP-Laurens-Adema\GreenShark\ModelingProject1Lib\GeneratedCode\Mission.cs" />
+  <Message Timestamp="2015-06-25T15:58:04" Importance="Medium" Text="'ModelingProject1::HOPE' -  (Class) : success (file created) - C:\Users\Laurens\Documents\GitHub\LP-Laurens-Adema\GreenShark\ModelingProject1Lib\GeneratedCode\HOPE.cs" />
+  <Message Timestamp="2015-06-25T15:58:04" Importance="Medium" Text="'ModelingProject1::SIN' -  (Class) : success (file created) - C:\Users\Laurens\Documents\GitHub\LP-Laurens-Adema\GreenShark\ModelingProject1Lib\GeneratedCode\SIN.cs" />
+  <Message Timestamp="2015-06-25T15:58:04" Importance="Medium" Text="'ModelingProject1::MissionProfile' -  (Class) : success (file created) - C:\Users\Laurens\Documents\GitHub\LP-Laurens-Adema\GreenShark\ModelingProject1Lib\GeneratedCode\MissionProfile.cs" />
+  <Message Timestamp="2015-06-25T15:58:04" Importance="Medium" Text="'ModelingProject1::Material' -  (Class) : success (file created) - C:\Users\Laurens\Documents\GitHub\LP-Laurens-Adema\GreenShark\ModelingProject1Lib\GeneratedCode\Material.cs" />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Medium" Text="'ModelingProject1::Employee' -  (Class) : success (file created) - C:\Users\Laurens\Documents\GitHub\LP-Laurens-Adema\GreenShark\ModelingProject1Lib\GeneratedCode\Employee.cs" />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProject1Lib\ModelingProject1Lib.csproj" />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Medium" Text="ModelingProject1's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'ModelingProject1::Boat' -  (Class), 'ModelingProject1::Mission' -  (Class), 'ModelingProject1::HOPE' -  (Class), 'ModelingProject1::SIN' -  (Class), 'ModelingProject1::MissionProfile' -  (Class), 'ModelingProject1::Material' -  (Class), 'ModelingProject1::Employee' -  (Class) " />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="'ModelingProject1::Boat' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="'ModelingProject1::Mission' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="'ModelingProject1::HOPE' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="'ModelingProject1::SIN' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="'ModelingProject1::MissionProfile' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="'ModelingProject1::Material' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-25T15:58:05" Importance="Diagnostic" Text="'ModelingProject1::Employee' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-25T15:58:06" Importance="Diagnostic" Text="The selection included 2 elements which were not bound to a template." />
+  <Message Timestamp="2015-06-25T15:58:06" Importance="Diagnostic" Text="'3e4bb121-7d8a-4edb-845a-ce24b0d494b8' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-06-25T15:58:06" Importance="Diagnostic" Text="'648336ab-0bc2-4600-9272-cd193487e263' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-06-25T15:58:06" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
