@@ -28,9 +28,7 @@
             {
                 try
                 {
-                    this.Con.ConnectionString = localhost
-                                                    ? "DATA SOURCE=localhost/xe;User Id=Application;Password=Welkom01;"
-                                                    : "User Id=dbi324942;Password=FSM6BF1PUf;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=fhictora01.fhict.local)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=fhictora)));";
+                    this.Con.ConnectionString = localhost ? "User Id=Tweakers;Password=Welkom01;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SID=xe)));" : "User Id=dbi324942;Password=FSM6BF1PUf;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.15.50)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=fhictora)));";
                     this.Con.Open();
                 }
                 catch (OracleException e)
@@ -69,9 +67,10 @@
             }
         }
 
-        protected internal bool Add(string table, List<string> rowList, List<OracleParameter> parameterList)
+        protected internal int Add(string table, List<string> rowList, List<OracleParameter> parameterList, bool getID)
         {
-            bool succes = false;
+            int returnValue = -1;
+
             try
             {
                 string CommandText = string.Format("INSERT INTO {0} (", table);
@@ -97,7 +96,29 @@
 
                 insertCommand.CommandType = CommandType.Text;
                 insertCommand.ExecuteNonQuery();
-                succes = true;
+
+                returnValue = 0;
+
+                if (getID)
+                {
+                    List<OracleParameter> idParameter = new List<OracleParameter>();
+                    idParameter.Add(new OracleParameter(":tabel", table));
+                    OracleDataReader getIDBack = this.Read("SELECT MAX(ID) FROM :tabel", idParameter);
+                    if (getIDBack != null)
+                    {
+                        if (getIDBack.HasRows)
+                        {
+                            while (getIDBack.Read())
+                            {
+                                returnValue = Convert.ToInt32(getIDBack["ID"]);
+                            }
+                        }
+
+                        getIDBack.Close();
+                    }
+
+                    this.CloseConnection();
+                }
             }
             catch (OracleException e)
             {
@@ -111,7 +132,7 @@
             {
                 this.CloseConnection();
             }
-            return succes;
+            return returnValue;
         }
 
         protected internal bool Edit(string table, List<string> rowList, List<OracleParameter> parameterList, int ID)
