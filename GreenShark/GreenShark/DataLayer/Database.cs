@@ -15,9 +15,9 @@
     {
         private const bool localhost = false;
 
-        protected OracleConnection Con { get; set; }
+        protected internal OracleConnection Con { get; set; }
 
-        public void OpenConnection()
+        protected internal void OpenConnection()
         {
             if (this.Con == null)
             {
@@ -40,7 +40,7 @@
             }
         }
 
-        public void CloseConnection()
+        protected internal void CloseConnection()
         {
             this.Con.Close();
         }

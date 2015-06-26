@@ -7,5 +7,9 @@ namespace GreenShark
 {
     public class DatabaseLogin : Database
     {
+        public void LogOut()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

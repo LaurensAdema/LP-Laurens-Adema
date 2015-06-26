@@ -63,7 +63,7 @@ namespace GreenShark
             }
         }
 
-        public string BoatType
+        public BoatType BoatType
         {
             get
             {
@@ -86,6 +86,17 @@ namespace GreenShark
         }
 
         public System.Collections.Generic.List<GreenShark.FunctionEmployee> Employees
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public string Report
         {
             get
             {

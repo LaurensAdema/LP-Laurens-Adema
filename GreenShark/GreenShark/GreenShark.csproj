@@ -48,9 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Objects\BoatType.cs" />
     <Compile Include="BusinessLayer\Administration.cs" />
-    <Compile Include="FunctionEmployee.cs" />
-    <Compile Include="Login.cs" />
+    <Compile Include="Objects\FunctionEmployee.cs" />
+    <Compile Include="BusinessLayer\LogIn.cs" />
     <Compile Include="Objects\Boat.cs" />
     <Compile Include="DataLayer\Database.cs" />
     <Compile Include="DataLayer\DatabaseBoat.cs" />

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace GreenShark
 {
-    public class Login
+    public class LogIn
     {
-        public Account LogIn(string username, string password)
+        public Employee LogMeIn(string username, string password)
         {
             throw new System.NotImplementedException();
         }

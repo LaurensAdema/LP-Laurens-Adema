@@ -6,162 +6,51 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2015-06-25T23:47:17" Importance="High" Text="Reverse Engineering Started." />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'a7b29734-c1bf-4604-ab51-999f839bde25' -  (ClassifierTemplateParameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1' -  (ModelStoreModel)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Account' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GeoCoordinate' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark' -  (Package)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Administration' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Administration::Administration' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Administration::Employee' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Administration::GetIncidents' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Administration::GetMeasurements' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Administration::GetMeasurements::ID' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Administration::GetMissions' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Administration::LogOut' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Boat' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Boat::Boat' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Boat::Crew' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Boat::ID' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Boat::Location' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Boat::Materials' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Boat::Name' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Boat::Type' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Add' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Add::parameterList' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Add::rowList' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Add::table' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::CloseConnection' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Con' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Database' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Delete' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Delete::ID' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Delete::table' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Edit' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Edit::ID' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Edit::parameterList' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Edit::rowList' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Edit::table' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::localhost' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::OpenConnection' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Read' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Read::parameters' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Read::selectQuery' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::DatabaseBoat' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::DatabaseBoat::DatabaseBoat' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::DatabaseEmployee' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::DatabaseEmployee::DatabaseEmployee' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::DatabaseLogin' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::DatabaseLogin::DatabaseLogin' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::DatabaseMaterial' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::DatabaseMaterial::DatabaseMaterial' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::DatabaseMission' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::DatabaseMission::DatabaseMission' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Employee' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Employee::Employee' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Employee::Function' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Employee::ID' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Employee::Name' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::FunctionEmployee' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::FunctionEmployee::Function' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::FunctionEmployee::FunctionEmployee' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::FunctionEmployee::ID' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::HOPE' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::HOPE::Approved' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::HOPE::HOPE' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::HOPE::ID' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::HOPE::Measurements' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::HOPE::ReturnDate' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Incident' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Incident::Date' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Incident::Description' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Incident::ID' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Incident::Incident' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Login' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Login::Login' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Login::LogIn' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Login::LogIn::password' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Login::LogIn::username' -  (Parameter)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Material' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Material::ID' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Material::Material' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Material::Name' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Measurement' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Measurement::Date' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Measurement::Measurement' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Measurement::Name' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Measurement::Value' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Mission' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Mission::Boat' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Mission::BoatType' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Mission::Discription' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Mission::Employees' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Mission::ID' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Mission::LeaveDate' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Mission::Location' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Mission::Materials' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Mission::Mission' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::MissionProfile' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::MissionProfile::BoatType' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::MissionProfile::Employees' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::MissionProfile::ID' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::MissionProfile::Materials' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::MissionProfile::MissionProfile' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::SIN' -  (Class)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::SIN::ID' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::SIN::Incidents' -  (Property)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::SIN::SIN' -  (Operation)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Oracle' -  (Package)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Oracle::ManagedDataAccess' -  (Package)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Oracle::ManagedDataAccess::Client' -  (Package)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Oracle::ManagedDataAccess::Client::OracleConnection' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Oracle::ManagedDataAccess::Client::OracleDataReader' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Oracle::ManagedDataAccess::Client::OracleParameter' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections' -  (Package)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic' -  (Package)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;Employee‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;FunctionEmployee‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;Incident‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;Material‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;Measurement‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;Mission‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;OracleParameter‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;String‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::DateTime' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Device' -  (Package)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Device::Location' -  (Package)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Device::Location::GeoCoordinate' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::DatabaseBoat to ModelingProject1::GreenShark::Database (Generalization)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::DatabaseEmployee to ModelingProject1::GreenShark::Database (Generalization)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::DatabaseLogin to ModelingProject1::GreenShark::Database (Generalization)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::DatabaseMaterial to ModelingProject1::GreenShark::Database (Generalization)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::DatabaseMission to ModelingProject1::GreenShark::Database (Generalization)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::Employee to ModelingProject1::GreenShark::FunctionEmployee (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::HOPE to ModelingProject1::System::Collections::Generic::List&lt;Measurement‎&gt; (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::HOPE to ModelingProject1::System::DateTime (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::HOPE to ModelingProject1::GreenShark::Mission (Generalization)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::Incident to ModelingProject1::System::DateTime (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::Measurement to ModelingProject1::System::DateTime (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::Mission to ModelingProject1::GreenShark::Boat (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::Mission to ModelingProject1::System::Collections::Generic::List&lt;FunctionEmployee‎&gt; (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::Mission to ModelingProject1::System::DateTime (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::Mission to ModelingProject1::System::Device::Location::GeoCoordinate (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::Mission to ModelingProject1::System::Collections::Generic::List&lt;Material‎&gt; (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::MissionProfile to ModelingProject1::System::Collections::Generic::List&lt;FunctionEmployee‎&gt; (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::MissionProfile to ModelingProject1::System::Collections::Generic::List&lt;Material‎&gt; (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::SIN to ModelingProject1::System::Collections::Generic::List&lt;Incident‎&gt; (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::SIN to ModelingProject1::GreenShark::Mission (Generalization)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::Boat to ModelingProject1::System::Collections::Generic::List&lt;Employee‎&gt; (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::Boat to ModelingProject1::GeoCoordinate (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::Boat to ModelingProject1::System::Collections::Generic::List&lt;Material‎&gt; (Association)" />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="High" Text="(18) type(s) fully reverse engineered." />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="High" Text="(16) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
-  <Message Timestamp="2015-06-25T23:47:20" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+  <Message Timestamp="2015-06-26T01:12:09" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'a7b29734-c1bf-4604-ab51-999f839bde25' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark' -  (Package)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database' -  (Class)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Add' -  (Operation)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Add::parameterList' -  (Parameter)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Add::rowList' -  (Parameter)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Add::table' -  (Parameter)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::CloseConnection' -  (Operation)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Con' -  (Property)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Database' -  (Operation)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Delete' -  (Operation)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Delete::ID' -  (Parameter)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Delete::table' -  (Parameter)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Edit' -  (Operation)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Edit::ID' -  (Parameter)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Edit::parameterList' -  (Parameter)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Edit::rowList' -  (Parameter)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Edit::table' -  (Parameter)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::localhost' -  (Property)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::OpenConnection' -  (Operation)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Read' -  (Operation)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Read::parameters' -  (Parameter)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GreenShark::Database::Read::selectQuery' -  (Parameter)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Oracle' -  (Package)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Oracle::ManagedDataAccess' -  (Package)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Oracle::ManagedDataAccess::Client' -  (Package)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Oracle::ManagedDataAccess::Client::OracleConnection' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Oracle::ManagedDataAccess::Client::OracleDataReader' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Oracle::ManagedDataAccess::Client::OracleParameter' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections' -  (Package)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;OracleParameter‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;String‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::DatabaseBoat to ModelingProject1::GreenShark::Database (Generalization)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::DatabaseEmployee to ModelingProject1::GreenShark::Database (Generalization)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::DatabaseLogin to ModelingProject1::GreenShark::Database (Generalization)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::DatabaseMaterial to ModelingProject1::GreenShark::Database (Generalization)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GreenShark::DatabaseMission to ModelingProject1::GreenShark::Database (Generalization)" />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="High" Text="(6) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2015-06-26T01:12:11" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
 </Log>

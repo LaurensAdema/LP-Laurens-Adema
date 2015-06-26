@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GreenShark
 {
-    public class MissionProfile
+    public class BoatType
     {
         public int ID
         {
@@ -18,7 +18,7 @@ namespace GreenShark
             }
         }
 
-        public List<Material> Materials
+        public string Type
         {
             get
             {
@@ -29,7 +29,7 @@ namespace GreenShark
             }
         }
 
-        public BoatType BoatType
+        public int Velocity
         {
             get
             {
@@ -40,7 +40,7 @@ namespace GreenShark
             }
         }
 
-        public System.Collections.Generic.List<GreenShark.FunctionEmployee> Employees
+        public int MaxPersons
         {
             get
             {
