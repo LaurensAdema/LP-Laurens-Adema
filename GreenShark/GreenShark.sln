@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenShark", "GreenShark\Gr
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UML", "UML\UML.modelproj", "{BDD915CF-0A1D-41D2-9B3A-67E5DC7E8F24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{E7D2B9D5-59D8-41B0-8DB5-F0E0F33417A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BDD915CF-0A1D-41D2-9B3A-67E5DC7E8F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDD915CF-0A1D-41D2-9B3A-67E5DC7E8F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDD915CF-0A1D-41D2-9B3A-67E5DC7E8F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D2B9D5-59D8-41B0-8DB5-F0E0F33417A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D2B9D5-59D8-41B0-8DB5-F0E0F33417A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D2B9D5-59D8-41B0-8DB5-F0E0F33417A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D2B9D5-59D8-41B0-8DB5-F0E0F33417A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

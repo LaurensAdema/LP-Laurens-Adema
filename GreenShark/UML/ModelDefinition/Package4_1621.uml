@@ -69,5 +69,63 @@
         </appliedStereotypesInternal>
       </class>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="54437949-bf2f-4386-a311-6f72a97e5d0d"
+        name="Button"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6443a6ab-5e0d-4209-b411-66d6bf05b937"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DButton"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="82072d81-c288-45d0-ac51-00cba3cadc96"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e102de7a-0c7c-48fd-ba5e-aa0f95e94f90">
+                <propertyInstance
+                  Id="f9e7888d-8f78-4b96-931b-3d1f1474c26f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="398cdbca-0756-4626-8ef1-b6fbcb4dd420">
+                <propertyInstance
+                  Id="40d3f3e7-10f4-4b55-b5a4-3cd7a5b0f59f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="30299277-03da-4184-8e5c-edae8976c2d3">
+                <propertyInstance
+                  Id="a048a7c7-65ef-4614-aefc-e74779dc08bf"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e3e9e1e6-27c2-4f09-8a03-0c651756d364">
+                <propertyInstance
+                  Id="88425f48-57e8-4dc3-b204-e835bb5fd926"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5c74f455-43ac-4b30-ba17-30e0b4f2a1a7">
+                <propertyInstance
+                  Id="a725a65d-8e5c-4ab2-909a-31ac5f01e348"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
   </packagedElements>
 </package>

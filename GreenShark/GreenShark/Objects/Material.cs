@@ -7,26 +7,16 @@ namespace GreenShark
 {
     public class Material
     {
-        public int ID
+        public Material(int id, string name)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            this.ID = id;
+            this.Name = name;
         }
 
-        public string Name
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+        public int ID { get; set; }
+
+
+        public string Name { get; set; }
+
     }
 }

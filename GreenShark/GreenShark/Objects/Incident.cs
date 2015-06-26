@@ -7,37 +7,20 @@ namespace GreenShark
 {
     public class Incident
     {
-        public DateTime ID
+        public Incident(DateTime id, int date, string description)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            this.ID = id;
+            this.Date = date;
+            this.Description = description;
         }
 
-        public int Date
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+        public DateTime ID { get; set; }
 
-        public string Description
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+
+        public int Date { get; set; }
+
+
+        public string Description { get; set; }
+
     }
 }

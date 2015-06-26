@@ -7,6 +7,14 @@ namespace GreenShark
 {
     public class Administration
     {
+        private DatabaseBoat dbBoat = new DatabaseBoat();
+
+        private DatabaseEmployee dbEmployee = new DatabaseEmployee();
+
+        private DatabaseMaterial dbMaterial = new DatabaseMaterial();
+
+        private DatabaseMission dbMission = new DatabaseMission();
+
         public Administration(Employee employeeInlog)
         {
             employee = employeeInlog;
@@ -21,7 +29,7 @@ namespace GreenShark
 
         public List<Mission> GetMissions()
         {
-            throw new System.NotImplementedException();
+            return dbMission.GetMissions();
         }
 
         public List<Measurement> GetMeasurements(int ID)
@@ -46,7 +54,7 @@ namespace GreenShark
 
         public void ChangeMission(Mission mission)
         {
-            throw new System.NotImplementedException();
+            //TODO
         }
 
         public void AddIncident(string ID, Incident incident)
@@ -59,9 +67,20 @@ namespace GreenShark
             throw new System.NotImplementedException();
         }
 
-        public void AddMission(Mission mission)
+        public string AddMission(Mission mission)
         {
-            throw new System.NotImplementedException();
+            List<Boat> boats = this.GetBoats();
+
+            if (mission is HOPE)
+            {
+                //dbMission.AddHOPE();
+            }
+            else if (mission is SIN)
+            {
+                //algoritme
+            }
+
+            return null;
         }
 
         public void DeleteMission(string ID)
@@ -131,7 +150,7 @@ namespace GreenShark
 
         public List<Boat> GetBoats()
         {
-            throw new System.NotImplementedException();
+            return dbBoat.GetBoats();
         }
 
         public void ChangeBoat(Boat boat)
@@ -151,7 +170,7 @@ namespace GreenShark
 
         public List<Material> GetMaterials()
         {
-            throw new System.NotImplementedException();
+            return dbMaterial.GetMaterials();
         }
 
         public void ChangeMaterial(Material material)
@@ -163,5 +182,15 @@ namespace GreenShark
         {
             throw new System.NotImplementedException();
         }
+
+        public List<FunctionEmployee> GetFunctionEmployees()
+        {
+            return dbEmployee.GetFunctionEmployees();
+        }
+
+        public List<BoatType> GetBoatTypes()
+        {
+            return dbBoat.GetBoatTypes();
+        } 
     }
 }

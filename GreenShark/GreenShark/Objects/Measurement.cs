@@ -7,37 +7,20 @@ namespace GreenShark
 {
     public class Measurement
     {
-        public string Name
+        public Measurement(string name, DateTime date, string value)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            this.Name = name;
+            this.Date = date;
+            this.Value = value;
         }
 
-        public DateTime Date
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+        public string Name { get; set; }
 
-        public string Value
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+
+        public DateTime Date { get; set; }
+
+
+        public string Value { get; set; }
+
     }
 }

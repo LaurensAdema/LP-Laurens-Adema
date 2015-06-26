@@ -5,28 +5,30 @@ using System.Text;
 
 namespace GreenShark
 {
+    using System.Device.Location;
+
     public class SIN : Mission
     {
-        public int ID
+        public SIN(int id, Boat boat, DateTime leaveDate, string discription, GeoCoordinate location, BoatType boatType, List<Material> materials, List<FunctionEmployee> employees, string report, int sinID, List<Incident> incidents)
+            : base(id, boat, leaveDate, discription, location, boatType, materials, employees, report)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            this.ID = sinID;
+            this.Incidents = incidents;
         }
 
-        public List<Incident> Incidents
+        public SIN(DateTime leaveDate, string discription, GeoCoordinate location, BoatType boatType, List<Material> materials, List<FunctionEmployee> employees)
+            : base(leaveDate, discription, location, boatType, materials, employees)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+        }
+
+        public int ID { get; set; }
+
+
+        public List<Incident> Incidents { get; set; }
+
+        public override string ToString()
+        {
+            return base.ToString();
         }
     }
 }

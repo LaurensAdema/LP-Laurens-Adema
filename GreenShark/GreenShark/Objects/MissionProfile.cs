@@ -7,48 +7,24 @@ namespace GreenShark
 {
     public class MissionProfile
     {
-        public int ID
+        public MissionProfile(int id, List<Material> materials, BoatType boatType, List<FunctionEmployee> employees)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            this.ID = id;
+            this.Materials = materials;
+            this.BoatType = boatType;
+            this.Employees = employees;
         }
 
-        public List<Material> Materials
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+        public int ID { get; set; }
 
-        public BoatType BoatType
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
 
-        public System.Collections.Generic.List<GreenShark.FunctionEmployee> Employees
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+        public List<Material> Materials { get; set; }
+
+
+        public BoatType BoatType { get; set; }
+
+
+        public System.Collections.Generic.List<GreenShark.FunctionEmployee> Employees { get; set; }
+
     }
 }

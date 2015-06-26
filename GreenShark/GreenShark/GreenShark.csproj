@@ -48,6 +48,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUI\HOPEForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\HOPEForm.Designer.cs">
+      <DependentUpon>HOPEForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SINForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SINForm.Designer.cs">
+      <DependentUpon>SINForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Objects\BoatType.cs" />
     <Compile Include="BusinessLayer\Administration.cs" />
     <Compile Include="Objects\FunctionEmployee.cs" />
@@ -60,11 +78,11 @@
     <Compile Include="DataLayer\DatabaseMaterial.cs" />
     <Compile Include="DataLayer\DatabaseMission.cs" />
     <Compile Include="Objects\Employee.cs" />
-    <Compile Include="GUI\Form1.cs">
+    <Compile Include="GUI\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="GUI\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Objects\HOPE.cs" />
     <Compile Include="Objects\Incident.cs" />
@@ -75,6 +93,18 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Objects\SIN.cs" />
+    <EmbeddedResource Include="GUI\HOPEForm.resx">
+      <DependentUpon>HOPEForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SINForm.resx">
+      <DependentUpon>SINForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

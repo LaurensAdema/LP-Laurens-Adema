@@ -7,37 +7,20 @@ namespace GreenShark
 {
     public class Employee
     {
-        public int ID
+        public Employee(int id, string name, FunctionEmployee function)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            this.ID = id;
+            this.Name = name;
+            this.Function = function;
         }
 
-        public string Name
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+        public int ID { get; set; }
 
-        public FunctionEmployee Function
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+
+        public string Name { get; set; }
+
+
+        public FunctionEmployee Function { get; set; }
+
     }
 }

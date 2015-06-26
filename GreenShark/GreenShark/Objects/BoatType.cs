@@ -7,48 +7,33 @@ namespace GreenShark
 {
     public class BoatType
     {
-        public int ID
+        public BoatType(int id, string type, int velocity, int maxPersons)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            this.ID = id;
+            this.Type = type;
+            this.Velocity = velocity;
+            this.MaxPersons = maxPersons;
         }
 
-        public string Type
+        public BoatType(int id)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            this.ID = id;
         }
 
-        public int Velocity
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+        public int ID { get; set; }
 
-        public int MaxPersons
+
+        public string Type { get; set; }
+
+
+        public int Velocity { get; set; }
+
+
+        public int MaxPersons { get; set; }
+
+        public override string ToString()
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            return Type;
         }
     }
 }
